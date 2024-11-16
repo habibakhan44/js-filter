@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#b2a8bd; 
+    color: #333;
+}
+
+#container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #ff6b6b; 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6b6b; /* Matching header red */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e55a5a; /* Slightly darker red */
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Contact List */
+#contact-List {
+    margin-top: 20px;
+}
+
+.contact {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5); /* Vibrant blue gradient */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    color: #fff; /* White text for contrast */
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.contact:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact b {
+    font-size: 1.3rem;
+    color: #ffe66d; 
+    margin-bottom: 5px;
+}
+
+.contact p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
